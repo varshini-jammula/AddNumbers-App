@@ -64,10 +64,10 @@ describe('AppComponent', () => {
   });
 
   it('should correctly add decimal numbers', () => {
-    component.num1 = 11;
+    component.num1 = 16;
     component.num2 = 20;
     component.addNumbers();
-    expect(component.sum).toBe(30);
+    expect(component.sum).toBe(36);
   });
 
   
